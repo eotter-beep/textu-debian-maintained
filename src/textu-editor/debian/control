@@ -1,0 +1,13 @@
+Source: textu-editor
+Section: utils
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: textu-editor
+Architecture: all
+Depends: ${misc:Depends}
+Description: Textu Editor
+ Edit text via command line.

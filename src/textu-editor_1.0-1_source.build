@@ -1,0 +1,9 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: info: source package textu-editor
+dpkg-buildpackage: info: source version 1.0-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Your Name <you@example.com>
+ dpkg-source --before-build .
+dpkg-checkbuilddeps: error: Unmet build dependencies: debhelper-compat (= 13)
+dpkg-buildpackage: warning: build dependencies/conflicts unsatisfied; aborting
+dpkg-buildpackage: warning: (Use -d flag to override.)

@@ -1,8 +1,0 @@
-Package: textu-editor
-Version: 1.0.2
-Section: utils
-Priority: optional
-Architecture: all
-Maintainer: Textu text editor
-Depends: python
-Description: Edit text via command line
