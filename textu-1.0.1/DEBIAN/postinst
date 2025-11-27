@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+# Optional: create symlink for PATH convenience
+ln -sf /usr/local/bin/textu /usr/bin/textu
+
+# Optional: initialize config directory
+mkdir -p /etc/textu
+touch /etc/textu/config.ini
+
+# Make sure script is executable
+chmod +x /usr/local/bin/textu
+
+exit 0
